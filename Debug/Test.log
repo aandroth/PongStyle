@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\aaron.andrews\downloads\sfwexampleproject (2)\sfwexampleproject\sfwexampleproject\sfwexampleproject\main.cpp(47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\downloads\sfwexampleproject (2)\sfwexampleproject\sfwexampleproject\sfwexampleproject\main.cpp(48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\downloads\sfwexampleproject (2)\sfwexampleproject\sfwexampleproject\sfwexampleproject\main.cpp(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\downloads\sfwexampleproject (2)\sfwexampleproject\sfwexampleproject\sfwexampleproject\main.cpp(98): warning C4018: '>=': signed/unsigned mismatch
+c:\users\aaron.andrews\downloads\sfwexampleproject (2)\sfwexampleproject\sfwexampleproject\sfwexampleproject\main.cpp(99): warning C4018: '<=': signed/unsigned mismatch
+  Test.vcxproj -> C:\Users\aaron.andrews\Downloads\SFWExampleProject (2)\SFWExampleProject\SFWExampleProject\SFWExampleProject\Debug\Test.exe
+  Test.vcxproj -> C:\Users\aaron.andrews\Downloads\SFWExampleProject (2)\SFWExampleProject\SFWExampleProject\SFWExampleProject\Debug\Test.pdb (Full PDB)
