@@ -5,11 +5,11 @@
 
 Paddle playerPaddle, enemyPaddle;
 Ball gameBall;
-void collisionController(Paddle padd, Ball ball);
-bool paddleRightAndBallCollisionX(Paddle padd, Ball ball);
-bool paddleLeftAndBallCollisionX(Paddle padd, Ball ball)
-bool paddleTopAndBallCollisionX(Paddle padd, Ball ball)
-bool paddleBottomAndBallCollisionX(Paddle padd, Ball ball)
+void collisionController(Paddle padd, Ball * ball);
+bool paddleRightAndBallCollision(Paddle padd, Ball ball);
+bool paddleLeftAndBallCollision(Paddle padd, Ball ball);
+bool paddleTopAndBallCollision(Paddle padd, Ball ball);
+bool paddleBottomAndBallCollision(Paddle padd, Ball ball);
 bool paddleAndBallCollisionX(Paddle, Ball);
 bool paddleAndBallCollisionY(Paddle, Ball);
 
@@ -115,12 +115,31 @@ void main()
 	sfw::termContext();
 }
 
-void collisionController(Paddle padd, Ball ball)
+void collisionController(Paddle padd, Ball * ball)
 {
-
+	if (paddleRightAndBallCollision)
+	{
+		ball->xVel = -ball->xVel;
+		ball->xPos -= 10;
+	}
+	if (paddleLeftAndBallCollision)
+	{
+		ball->xVel = -ball->xVel;
+		ball->xPos -= 10;
+	}
+	if (paddleRightAndBallCollision)
+	{
+		ball->xVel = -ball->xVel;
+		ball->xPos -= 10;
+	}
+	if (paddleRightAndBallCollision)
+	{
+		ball->xVel = -ball->xVel;
+		ball->xPos -= 10;
+	}
 }
 
-bool paddleRightAndBallCollisionX(Paddle padd, Ball ball)
+bool paddleRightAndBallCollision(Paddle padd, Ball ball)
 {
 	if ((ball.xPos - ball.radius < padd.xPos + padd.width && ball.xPos - ball.radius > padd.xPos) &&
 		((ball.yPos - ball.radius > padd.yPos - padd.height && ball.yPos - ball.radius < padd.yPos) || (ball.yPos + ball.radius > padd.yPos - padd.height && ball.yPos + ball.radius < padd.yPos)))
@@ -130,7 +149,7 @@ bool paddleRightAndBallCollisionX(Paddle padd, Ball ball)
 	return false;
 }
 
-bool paddleLeftAndBallCollisionX(Paddle padd, Ball ball)
+bool paddleLeftAndBallCollision(Paddle padd, Ball ball)
 {
 	if ((ball.xPos + ball.radius < padd.xPos + padd.width && ball.xPos + ball.radius > padd.xPos) &&
 		((ball.yPos - ball.radius > padd.yPos - padd.height && ball.yPos - ball.radius < padd.yPos) || (ball.yPos + ball.radius > padd.yPos - padd.height && ball.yPos + ball.radius < padd.yPos)))
@@ -140,7 +159,7 @@ bool paddleLeftAndBallCollisionX(Paddle padd, Ball ball)
 	return false;
 }
 
-bool paddleTopAndBallCollisionX(Paddle padd, Ball ball)
+bool paddleTopAndBallCollision(Paddle padd, Ball ball)
 {
 	if ((padd.yPos < ball.yPos + ball.radius && padd.yPos > ball.yPos - ball.radius) &&
 		((padd.xPos > ball.xPos - ball.radius && padd.xPos < ball.xPos + ball.radius) || (padd.xPos + padd.width > ball.xPos - ball.radius && padd.xPos + padd.width < ball.xPos + ball.radius)))
@@ -150,7 +169,7 @@ bool paddleTopAndBallCollisionX(Paddle padd, Ball ball)
 	return false;
 }
 
-bool paddleBottomAndBallCollisionX(Paddle padd, Ball ball)
+bool paddleBottomAndBallCollision(Paddle padd, Ball ball)
 {
 	if ((padd.yPos - padd.height < ball.yPos + ball.radius && padd.yPos - padd.height > ball.yPos - ball.radius) &&
 		((padd.xPos > ball.xPos - ball.radius && padd.xPos < ball.xPos + ball.radius) || (padd.xPos + padd.width > ball.xPos - ball.radius && padd.xPos + padd.width < ball.xPos + ball.radius)))
