@@ -1,9 +1,77 @@
 ﻿  main.cpp
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(11): error C2144: syntax error: 'bool' should be preceded by ';'
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(12): error C2144: syntax error: 'bool' should be preceded by ';'
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(13): error C2144: syntax error: 'bool' should be preceded by ';'
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(102): warning C4018: '>=': signed/unsigned mismatch
-c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(103): warning C4018: '<=': signed/unsigned mismatch
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\main.cpp(48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Collision.cpp
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(7): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(7): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(7): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(7): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(7): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(9): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(9): error C2228: left of '.xVel' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(9): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(11): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(11): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(11): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(14): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(14): error C2228: left of '.xVel' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(14): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(17): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(17): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(17): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(17): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(17): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(18): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(18): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(18): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(18): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(18): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(20): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(20): error C2228: left of '.yVel' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(20): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(34): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(40): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(46): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(133): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(133): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(133): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(133): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(133): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(134): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(134): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(134): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(134): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(134): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(135): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(135): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(135): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(135): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(135): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(136): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(136): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(136): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(136): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(136): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(146): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(146): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(146): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(146): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(146): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(147): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(147): error C2228: left of '.xPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(147): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(147): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(147): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(148): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(148): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(148): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(148): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(148): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(149): error C2065: 'gameBall': undeclared identifier
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(149): error C2228: left of '.yPos' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(149): note: type is 'unknown-type'
+c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(149): error C2228: left of '.radius' must have class/struct/union
+  c:\users\aaron.andrews\documents\visual studio 2015\projects\sfwexampleproject\collision.cpp(149): note: type is 'unknown-type'
+  Generating Code...
