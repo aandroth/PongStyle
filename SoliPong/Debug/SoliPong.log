@@ -1,0 +1,10 @@
+﻿  Main.cpp
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(102): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(133): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(139): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(145): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\aaron.andrews\documents\visual studio 2015\projects\solipong\solipong\gamestate.h(151): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  SoliPong.vcxproj -> C:\Users\aaron.andrews\Documents\Visual Studio 2015\Projects\SoliPong\Debug\SoliPong.exe
+  SoliPong.vcxproj -> C:\Users\aaron.andrews\Documents\Visual Studio 2015\Projects\SoliPong\Debug\SoliPong.pdb (Full PDB)
